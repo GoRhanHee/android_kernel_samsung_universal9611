@@ -1,0 +1,18 @@
+!<thin>
+//                                              228       `
+phy-core.o/
+samsung/phy-exynos-mipi-dsim.o/
+samsung/phy-exynos-mipi.o/
+samsung/phy-exynos-debugfs.o/
+samsung/phy-exynos-dp-debugfs.o/
+samsung/phy-exynos-usbdrd.o/
+samsung/phy-exynos-usb3p1.o/
+samsung/phy-exynos-usbdp-gen2-v3.o/
+/0              0           0     0     644     203400    `
+/12             0           0     0     644     252824    `
+/44             0           0     0     644     407320    `
+/71             0           0     0     644     201256    `
+/101            0           0     0     644     178232    `
+/134            0           0     0     644     423664    `
+/163            0           0     0     644     296088    `
+/192            0           0     0     644     462584    `

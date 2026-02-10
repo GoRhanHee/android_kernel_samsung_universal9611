@@ -1,0 +1,35 @@
+!<thin>
+//                                              274       `
+dsp-common.o/
+dsp-dl-engine.o/
+dsp-dl-linker.o/
+dsp-dl-out-manager.o/
+dsp-elf-loader.o/
+dsp-gpt-manager.o/
+dsp-hash.o/
+dsp-lib-manager.o/
+dsp-list.o/
+dsp-llstack.o/
+dsp-pm-manager.o/
+dsp-rule-reader.o/
+dsp-string-tree.o/
+dsp-sxml.o/
+dsp-tlsf-allocator.o/
+dsp-xml-parser.o/
+
+/0              0           0     0     644     12448     `
+/14            /0           0     0     644     34472     `
+/31            /0           0     0     644     103632    `
+/48             0           0     0     644     41824     `
+/70             0           0     0     644     117968    `
+/88             0           0     0     644     23280     `
+/107            0           0     0     644     13088     `
+/119            0           0     0     644     60648     `
+/138            0           0     0     644     10208     `
+/150            0           0     0     644     4448      `
+/165            0           0     0     644     24768     `
+/183            0           0     0     644     42104     `
+/202            0           0     0     644     9152      `
+/221            0           0     0     644     41480     `
+/233            0           0     0     644     55760     `
+/255            0           0     0     644     38168     `

@@ -1,0 +1,16 @@
+!<thin>
+//                                              148       `
+dwc/pcie-designware.o/
+dwc/pcie-designware-host.o/
+dwc/pcie-designware-plat.o/
+dwc/pcie-hisi.o/
+pci-thunder-ecam.o/
+pci-thunder-pem.o/
+pci-xgene.o/
+/0              0           0     0     644     265120    `
+/23             0           0     0     644     205584    `
+/51             0           0     0     644     164936    `
+/79             0           0     0     644     1168      `
+/96             0           0     0     644     1176      `
+/116            0           0     0     644     1168      `
+/135            0           0     0     644     1168      `

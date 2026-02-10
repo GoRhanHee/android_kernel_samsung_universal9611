@@ -1,0 +1,1 @@
+cmd_drivers/usb/typec/slsi/s2mu106/built-in.a :=  rm -f drivers/usb/typec/slsi/s2mu106/built-in.a; aarch64-linux-android-ar rcSTPD drivers/usb/typec/slsi/s2mu106/built-in.a drivers/usb/typec/slsi/s2mu106/s2mu106-usbpd.o

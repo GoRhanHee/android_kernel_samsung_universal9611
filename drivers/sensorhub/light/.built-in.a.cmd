@@ -1,0 +1,1 @@
+cmd_drivers/sensorhub/light/built-in.a :=  rm -f drivers/sensorhub/light/built-in.a; aarch64-linux-android-ar rcSTPD drivers/sensorhub/light/built-in.a drivers/sensorhub/light/light_sensor.o drivers/sensorhub/light/light_stk3x6x.o

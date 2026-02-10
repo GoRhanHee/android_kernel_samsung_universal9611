@@ -1,0 +1,10 @@
+!<thin>
+//                                              122       `
+npu/NPU.bin.gen.o/
+tsp_melfas/mss100_a51x.fw.gen.o/
+sensorhub/shub_neus_bl.bin.gen.o/
+sensorhub/shub_neus_a51x.bin.gen.o/
+/0              0           0     0     644     268672    `
+/19             0           0     0     644     131408    `
+/52             0           0     0     644     2640      `
+/86             0           0     0     644     171952    `

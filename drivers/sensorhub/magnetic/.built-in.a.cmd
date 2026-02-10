@@ -1,0 +1,1 @@
+cmd_drivers/sensorhub/magnetic/built-in.a :=  rm -f drivers/sensorhub/magnetic/built-in.a; aarch64-linux-android-ar rcSTPD drivers/sensorhub/magnetic/built-in.a drivers/sensorhub/magnetic/magnetic_sensor.o drivers/sensorhub/magnetic/magnetic_ak09918c.o

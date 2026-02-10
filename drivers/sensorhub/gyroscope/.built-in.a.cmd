@@ -1,0 +1,1 @@
+cmd_drivers/sensorhub/gyroscope/built-in.a :=  rm -f drivers/sensorhub/gyroscope/built-in.a; aarch64-linux-android-ar rcSTPD drivers/sensorhub/gyroscope/built-in.a drivers/sensorhub/gyroscope/gyroscope_sensor.o drivers/sensorhub/gyroscope/gyro_icm42605m.o

@@ -1,0 +1,37 @@
+!<thin>
+//                                              662       `
+is-helper-i2c.o/
+csi2/is-hw-csi-v5_3.o/
+module_framework/is-interface-sensor.o/
+module_framework/is-interface-actuator.o/
+module_framework/is-control-sensor.o/
+module_framework/is-control-actuator.o/
+module_framework/is-device-sensor-peri.o/
+module_framework/i2c_dummy/is-i2c-dummy.o/
+module_framework/modules/is-device-module-base.o/
+module_framework/cis/is-cis.o/
+module_framework/cis/is-cis-gc5035.o/
+module_framework/cis/is-cis-imx582.o/
+module_framework/cis/is-cis-imx616.o/
+module_framework/cis/is-cis-hi1336.o/
+module_framework/actuator/is-helper-actuator-i2c.o/
+module_framework/actuator/is-actuator-dw9808.o/
+module_framework/flash/is-flash-s2mu106.o/
+
+/0             /0           0     0     644     97640     `
+/17             0           0     0     644     294640    `
+/40             0           0     0     644     774144    `
+/80             0           0     0     644     451968    `
+/122            0           0     0     644     489296    `
+/160            0           0     0     644     430592    `
+/200            0           0     0     644     610952    `
+/242            0           0     0     644     433048    `
+/285            0           0     0     644     608528    `
+/335            0           0     0     644     490672    `
+/366           /0           0     0     644     673840    `
+/404           /0           0     0     644     744968    `
+/442           /0           0     0     644     811424    `
+/480           /0           0     0     644     687616    `
+/518            0           0     0     644     73392     `
+/570            0           0     0     644     538496    `
+/618            0           0     0     644     460112    `

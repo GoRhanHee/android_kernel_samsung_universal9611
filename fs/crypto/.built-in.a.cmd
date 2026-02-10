@@ -1,0 +1,1 @@
+cmd_fs/crypto/built-in.a :=  rm -f fs/crypto/built-in.a; aarch64-linux-android-ar rcSTPD fs/crypto/built-in.a fs/crypto/crypto.o fs/crypto/fname.o fs/crypto/hooks.o fs/crypto/keyinfo.o fs/crypto/policy.o fs/crypto/bio.o fs/crypto/sdp/sdp_cache.o fs/crypto/sdp/sdp_dek.o fs/crypto/sdp/sdp_ioctl.o fs/crypto/sdp/sdp_name.o fs/crypto/sdp/sdp_xattr.o fs/crypto/sdp/sdp_crypto.o

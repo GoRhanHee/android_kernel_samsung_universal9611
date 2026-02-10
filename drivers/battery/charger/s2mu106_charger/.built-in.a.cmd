@@ -1,0 +1,1 @@
+cmd_drivers/battery/charger/s2mu106_charger/built-in.a :=  rm -f drivers/battery/charger/s2mu106_charger/built-in.a; aarch64-linux-android-ar rcSTPD drivers/battery/charger/s2mu106_charger/built-in.a drivers/battery/charger/s2mu106_charger/s2mu106_pmeter.o drivers/battery/charger/s2mu106_charger/s2mu106_charger.o

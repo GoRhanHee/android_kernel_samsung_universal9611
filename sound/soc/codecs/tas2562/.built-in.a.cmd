@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/tas2562/built-in.a :=  rm -f sound/soc/codecs/tas2562/built-in.a; aarch64-linux-android-ar rcSTPD sound/soc/codecs/tas2562/built-in.a sound/soc/codecs/tas2562/tas2562-codec.o sound/soc/codecs/tas2562/tas2562-regmap.o sound/soc/codecs/tas2562/tas25xx-algo.o sound/soc/codecs/tas2562/tas25xx-calib.o

@@ -1,0 +1,1 @@
+cmd_firmware/built-in.a :=  rm -f firmware/built-in.a; aarch64-linux-android-ar rcSTPD firmware/built-in.a firmware/npu/NPU.bin.gen.o firmware/tsp_melfas/mss100_a51x.fw.gen.o firmware/sensorhub/shub_neus_bl.bin.gen.o firmware/sensorhub/shub_neus_a51x.bin.gen.o

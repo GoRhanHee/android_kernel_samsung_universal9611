@@ -1,0 +1,1 @@
+cmd_drivers/security/samsung/five_tee_driver/built-in.a :=  rm -f drivers/security/samsung/five_tee_driver/built-in.a; aarch64-linux-android-ar rcSTPD drivers/security/samsung/five_tee_driver/built-in.a drivers/security/samsung/five_tee_driver/five_tee_driver.o drivers/security/samsung/five_tee_driver/multibuild/source/gp-api/client/teec_operation_teegris_v3.o

@@ -1,0 +1,13 @@
+!<thin>
+//                                              112       `
+main.o/
+stui_core.o/
+stui_inf.o/
+platforms/exynos980/stui_hal_display.o/
+platforms/exynos980/stui_hal_touch.o/
+
+/0              0           0     0     644     132328    `
+/8              0           0     0     644     130336    `
+/21             0           0     0     644     269616    `
+/33             0           0     0     644     163392    `
+/73             0           0     0     644     5832      `

@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/exynos/camera/sensor/module_framework/modules/built-in.a :=  rm -f drivers/media/platform/exynos/camera/sensor/module_framework/modules/built-in.a; aarch64-linux-android-ar rcSTPD drivers/media/platform/exynos/camera/sensor/module_framework/modules/built-in.a drivers/media/platform/exynos/camera/sensor/module_framework/modules/is-device-module-base.o

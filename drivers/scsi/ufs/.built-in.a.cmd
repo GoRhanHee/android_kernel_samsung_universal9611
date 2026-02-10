@@ -1,0 +1,1 @@
+cmd_drivers/scsi/ufs/built-in.a :=  rm -f drivers/scsi/ufs/built-in.a; aarch64-linux-android-ar rcSTPD drivers/scsi/ufs/built-in.a drivers/scsi/ufs/ufshcd.o drivers/scsi/ufs/ufs-sysfs.o drivers/scsi/ufs/ufs_quirks.o drivers/scsi/ufs/ufshcd-pltfrm.o drivers/scsi/ufs/ufs-exynos.o drivers/scsi/ufs/ufs-exynos-dbg.o drivers/scsi/ufs/ufs-cal-9630.o

@@ -1,0 +1,18 @@
+!<thin>
+//                                              148       `
+gnss_mbox.o/
+gnss_main.o/
+gnss_io_device.o/
+gnss_keplerctl_device.o/
+gnss_link_device_shmem.o/
+gnss_link_device_memory.o/
+pmu-gnss.o/
+gnss_utils.o/
+/0              0           0     0     644     220880    `
+/13             0           0     0     644     325208    `
+/26             0           0     0     644     329984    `
+/44             0           0     0     644     200064    `
+/69             0           0     0     644     398296    `
+/95             0           0     0     644     177496    `
+/122            0           0     0     644     237536    `
+/134            0           0     0     644     335928    `

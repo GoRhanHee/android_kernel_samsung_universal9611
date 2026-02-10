@@ -1,0 +1,1 @@
+cmd_drivers/muic/common/built-in.a :=  rm -f drivers/muic/common/built-in.a; aarch64-linux-android-ar rcSTPD drivers/muic/common/built-in.a drivers/muic/common/muic_notifier.o drivers/muic/common/muic_param.o drivers/muic/common/muic_sysfs.o drivers/muic/common/muic_core.o drivers/muic/common/muic_manager.o

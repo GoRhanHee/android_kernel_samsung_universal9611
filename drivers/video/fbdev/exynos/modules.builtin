@@ -1,0 +1,9 @@
+kernel/drivers/video/fbdev/exynos/panel/dimming.ko
+kernel/drivers/video/fbdev/exynos/panel/panel_irc.ko
+kernel/drivers/video/fbdev/exynos/panel/mdnie.ko
+kernel/drivers/video/fbdev/exynos/panel/sysfs.ko
+kernel/drivers/video/fbdev/exynos/panel/dpui.ko
+kernel/drivers/video/fbdev/exynos/panel/aod/aod_drv.ko
+kernel/drivers/video/fbdev/exynos/panel/df/dynamic_freq.ko
+kernel/drivers/video/fbdev/exynos/panel/ea8076/ea8076.ko
+kernel/drivers/video/fbdev/exynos/panel/ea8076/ea8076_aod.ko

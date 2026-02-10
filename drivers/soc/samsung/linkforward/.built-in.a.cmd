@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/linkforward/built-in.a :=  rm -f drivers/soc/samsung/linkforward/built-in.a; aarch64-linux-android-ar rcSTPD drivers/soc/samsung/linkforward/built-in.a drivers/soc/samsung/linkforward/linkforward.o drivers/soc/samsung/linkforward/linkforward-offload.o

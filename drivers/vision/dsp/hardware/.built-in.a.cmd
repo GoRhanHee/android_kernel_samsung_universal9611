@@ -1,0 +1,1 @@
+cmd_drivers/vision/dsp/hardware/built-in.a :=  rm -f drivers/vision/dsp/hardware/built-in.a; aarch64-linux-android-ar rcSTPD drivers/vision/dsp/hardware/built-in.a drivers/vision/dsp/hardware/exynos9630/built-in.a

@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/exynos/camera-pp/built-in.a :=  rm -f drivers/media/platform/exynos/camera-pp/built-in.a; aarch64-linux-android-ar rcSTPD drivers/media/platform/exynos/camera-pp/built-in.a drivers/media/platform/exynos/camera-pp/camerapp-sfr-api-common.o drivers/media/platform/exynos/camera-pp/gdc/built-in.a drivers/media/platform/exynos/camera-pp/votf/built-in.a

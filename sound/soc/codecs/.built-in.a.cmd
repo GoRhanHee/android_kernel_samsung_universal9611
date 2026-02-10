@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/built-in.a :=  rm -f sound/soc/codecs/built-in.a; aarch64-linux-android-ar rcSTPD sound/soc/codecs/built-in.a sound/soc/codecs/aud3003x.o sound/soc/codecs/aud3003x-dump.o sound/soc/codecs/aud3003x-5pin.o sound/soc/codecs/tas2562/built-in.a

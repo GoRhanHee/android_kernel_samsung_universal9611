@@ -1,0 +1,97 @@
+!<thin>
+//                                              1400      `
+backlight/lcd.o/
+backlight/backlight.o/
+fbdev/core/fb_cmdline.o/
+fbdev/core/fb_notify.o/
+fbdev/core/fbmem.o/
+fbdev/core/fbmon.o/
+fbdev/core/fbcmap.o/
+fbdev/core/fbsysfs.o/
+fbdev/core/modedb.o/
+fbdev/core/fbcvt.o/
+fbdev/core/cfbfillrect.o/
+fbdev/core/cfbcopyarea.o/
+fbdev/core/cfbimgblt.o/
+fbdev/exynos/panel/timenval.o/
+fbdev/exynos/panel/panel.o/
+fbdev/exynos/panel/panel_bl.o/
+fbdev/exynos/panel/panel_drv.o/
+fbdev/exynos/panel/decon_board.o/
+fbdev/exynos/panel/dimming.o/
+fbdev/exynos/panel/panel_irc.o/
+fbdev/exynos/panel/mdnie.o/
+fbdev/exynos/panel/sysfs.o/
+fbdev/exynos/panel/dpui.o/
+fbdev/exynos/panel/aod/aod_drv.o/
+fbdev/exynos/panel/df/dynamic_freq.o/
+fbdev/exynos/panel/ea8076/ea8076.o/
+fbdev/exynos/panel/ea8076/ea8076_aod.o/
+fbdev/exynos/dpu30/dpp_drv.o/
+fbdev/exynos/dpu30/dsim_drv.o/
+fbdev/exynos/dpu30/cal_9630/dsim_reg.o/
+fbdev/exynos/dpu30/cal_9630/dpp_reg.o/
+fbdev/exynos/dpu30/cal_9630/decon_reg.o/
+fbdev/exynos/dpu30/decon_core.o/
+fbdev/exynos/dpu30/decon_dsi.o/
+fbdev/exynos/dpu30/decon_wb.o/
+fbdev/exynos/dpu30/helper.o/
+fbdev/exynos/dpu30/win_update.o/
+fbdev/exynos/dpu30/cursor.o/
+fbdev/exynos/dpu30/fence.o/
+fbdev/exynos/dpu30/event_log.o/
+fbdev/exynos/dpu30/format.o/
+fbdev/exynos/dpu30/bts.o/
+fbdev/exynos/dpu30/dqe_drv.o/
+fbdev/exynos/dpu30/cal_9630/dqe_reg.o/
+fbdev/exynos/dpu30/panels/common_panel_drv.o/
+fbdev/exynos/dpu30/panels/common_mipi_lcd.o/
+fbdev/simplefb.o/
+
+/0              0           0     0     644     179776    `
+/17             0           0     0     644     217896    `
+/40             0           0     0     644     11856     `
+/65             0           0     0     644     132344    `
+/89             0           0     0     644     359792    `
+/109            0           0     0     644     216960    `
+/129            0           0     0     644     189328    `
+/150            0           0     0     644     185064    `
+/172            0           0     0     644     208608    `
+/193            0           0     0     644     16888     `
+/213            0           0     0     644     186648    `
+/239            0           0     0     644     203016    `
+/265            0           0     0     644     170992    `
+/289            0           0     0     644     9272      `
+/320            0           0     0     644     379960    `
+/348            0           0     0     644     315720    `
+/379            0           0     0     644     647544    `
+/411            0           0     0     644     364160    `
+/445            0           0     0     644     179328    `
+/475            0           0     0     644     20368     `
+/507            0           0     0     644     359776    `
+/535            0           0     0     644     438496    `
+/563            0           0     0     644     167056    `
+/590            0           0     0     644     346872    `
+/624            0           0     0     644     268464    `
+/662            0           0     0     644     462536    `
+/698            0           0     0     644     1168      `
+/738            0           0     0     644     342160    `
+/768            0           0     0     644     454448    `
+/799            0           0     0     644     651944    `
+/839            0           0     0     644     430088    `
+/878            0           0     0     644     727576    `
+/919            0           0     0     644     598008    `
+/952            0           0     0     644     362824    `
+/984            0           0     0     644     242048    `
+/1015           0           0     0     644     307056    `
+/1044           0           0     0     644     275608    `
+/1077           0           0     0     644     248920    `
+/1106           0           0     0     644     249864    `
+/1134           0           0     0     644     371560    `
+/1166           0           0     0     644     13888     `
+/1195           0           0     0     644     268944    `
+/1221           0           0     0     644     444224    `
+/1251           0           0     0     644     326112    `
+/1290           0           0     0     644     335152    `
+/1336           0           0     0     644     270240    `
+/1381           0           0     0     644     186808    `

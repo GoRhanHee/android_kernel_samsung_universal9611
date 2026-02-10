@@ -1,0 +1,1 @@
+cmd_drivers/sensorhub/accelerometer/built-in.a :=  rm -f drivers/sensorhub/accelerometer/built-in.a; aarch64-linux-android-ar rcSTPD drivers/sensorhub/accelerometer/built-in.a drivers/sensorhub/accelerometer/accelometer_sensor.o drivers/sensorhub/accelerometer/accel_icm42605m.o

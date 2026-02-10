@@ -1,0 +1,19 @@
+!<thin>
+//                                              168       `
+exynos-coresight.o/
+exynos9630-itmon.o/
+exynos-helper.o/
+exynos-handler.o/
+exynos-adv-tracer.o/
+exynos-adv-tracer-ipc.o/
+exynos-adv-tracer-s2d.o/
+exynos-debug-test.o/
+
+/0              0           0     0     644     187432    `
+/20             0           0     0     644     322224    `
+/40            /0           0     0     644     166016    `
+/57             0           0     0     644     96032     `
+/75             0           0     0     644     82680     `
+/96             0           0     0     644     124752    `
+/121            0           0     0     644     151856    `
+/146            0           0     0     644     245104    `

@@ -1,0 +1,50 @@
+!<thin>
+//                                              398       `
+input.o/
+input-compat.o/
+input-mt.o/
+ff-core.o/
+sec_tsp_log.o/
+sec_cmd.o/
+sec_tclm_v2.o/
+sec_tsp_dumpkey.o/
+ff-memless.o/
+matrix-keymap.o/
+input-leds.o/
+evdev.o/
+keyboard/atkbd.o/
+keyboard/gpio_keys.o/
+keyboard/samsung-keypad.o/
+keyboard/s2mpu10-key.o/
+joystick/xpad.o/
+tablet/acecad.o/
+tablet/aiptek.o/
+tablet/gtco.o/
+tablet/hanwang.o/
+tablet/kbtab.o/
+touchscreen/of_touchscreen.o/
+misc/uinput.o/
+/0              0           0     0     644     1365640   `
+/9              0           0     0     644     144448    `
+/25             0           0     0     644     171344    `
+/37             0           0     0     644     155976    `
+/48             0           0     0     644     178184    `
+/63             0           0     0     644     172440    `
+/74             0           0     0     644     184856    `
+/89             0           0     0     644     18984     `
+/108            0           0     0     644     172160    `
+/122           /0           0     0     644     147688    `
+/139            0           0     0     644     149856    `
+/153            0           0     0     644     351112    `
+/162            0           0     0     644     272960    `
+/180            0           0     0     644     266912    `
+/202            0           0     0     644     208936    `
+/229            0           0     0     644     262496    `
+/253            0           0     0     644     281256    `
+/270            0           0     0     644     176560    `
+/287            0           0     0     644     289456    `
+/304            0           0     0     644     192304    `
+/319            0           0     0     644     191520    `
+/337            0           0     0     644     172480    `
+/353            0           0     0     644     150336    `
+/383            0           0     0     644     268288    `

@@ -1,0 +1,1 @@
+cmd_mm/sec_mm/built-in.a :=  rm -f mm/sec_mm/built-in.a; aarch64-linux-android-ar rcSTPD mm/sec_mm/built-in.a mm/sec_mm/sec_mm_init.o mm/sec_mm/lowfile_detect.o mm/sec_mm/panic_handler.o mm/sec_mm/dump_tasks.o

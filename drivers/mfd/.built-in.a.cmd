@@ -1,0 +1,1 @@
+cmd_drivers/mfd/built-in.a :=  rm -f drivers/mfd/built-in.a; aarch64-linux-android-ar rcSTPD drivers/mfd/built-in.a drivers/mfd/mfd-core.o drivers/mfd/s2mpu10-core.o drivers/mfd/s2mpu10-irq.o drivers/mfd/s2mpu11-core.o drivers/mfd/s2mpu11-notifier.o drivers/mfd/syscon.o

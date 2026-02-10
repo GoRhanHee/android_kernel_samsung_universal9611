@@ -1,0 +1,1 @@
+cmd_drivers/vibrator/slsi/s2mu106/built-in.a :=  rm -f drivers/vibrator/slsi/s2mu106/built-in.a; aarch64-linux-android-ar rcSTPD drivers/vibrator/slsi/s2mu106/built-in.a drivers/vibrator/slsi/s2mu106/s2mu106_vibrator.o

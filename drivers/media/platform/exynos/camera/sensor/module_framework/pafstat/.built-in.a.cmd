@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/exynos/camera/sensor/module_framework/pafstat/built-in.a :=  rm -f drivers/media/platform/exynos/camera/sensor/module_framework/pafstat/built-in.a; aarch64-linux-android-ar rcSTPD drivers/media/platform/exynos/camera/sensor/module_framework/pafstat/built-in.a 

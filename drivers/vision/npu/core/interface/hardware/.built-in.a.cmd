@@ -1,0 +1,1 @@
+cmd_drivers/vision/npu/core/interface/hardware/built-in.a :=  rm -f drivers/vision/npu/core/interface/hardware/built-in.a; aarch64-linux-android-ar rcSTPD drivers/vision/npu/core/interface/hardware/built-in.a drivers/vision/npu/core/interface/hardware/npu-interface.o drivers/vision/npu/core/interface/hardware/mailbox_ipc.o

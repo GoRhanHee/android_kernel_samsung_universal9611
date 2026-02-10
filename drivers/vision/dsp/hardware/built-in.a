@@ -1,0 +1,23 @@
+!<thin>
+//                                              270       `
+exynos9630/dsp-hw-system.o/
+exynos9630/dsp-hw-pm.o/
+exynos9630/dsp-hw-clk.o/
+exynos9630/dsp-hw-bus.o/
+exynos9630/dsp-hw-interface.o/
+exynos9630/dsp-hw-debug.o/
+exynos9630/dsp-hw-ctrl.o/
+exynos9630/dsp-hw-memory.o/
+exynos9630/dsp-hw-mailbox.o/
+exynos9630/dsp-hw-dump.o/
+
+/0             /0           0     0     644     269184    `
+/28             0           0     0     644     183512    `
+/52             0           0     0     644     152296    `
+/77             0           0     0     644     148912    `
+/102            0           0     0     644     224736    `
+/133            0           0     0     644     328440    `
+/160            0           0     0     644     363968    `
+/186           /0           0     0     644     170168    `
+/214            0           0     0     644     172440    `
+/243            0           0     0     644     195304    `

@@ -1,0 +1,2 @@
+kernel/drivers/rtc/power-on-alarm.ko
+kernel/drivers/rtc/rtc-s2mpu10.ko

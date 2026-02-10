@@ -1,0 +1,1 @@
+cmd_sound/soc/samsung/vts/built-in.a :=  rm -f sound/soc/samsung/vts/built-in.a; aarch64-linux-android-ar rcSTPD sound/soc/samsung/vts/built-in.a sound/soc/samsung/vts/mailbox.o sound/soc/samsung/vts/vts.o sound/soc/samsung/vts/vts_dma.o sound/soc/samsung/vts/vts_log.o sound/soc/samsung/vts/vts_dump.o sound/soc/samsung/vts/vts_pcm_dump.o

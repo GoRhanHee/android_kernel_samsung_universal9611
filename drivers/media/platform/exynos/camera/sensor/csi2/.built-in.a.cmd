@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/exynos/camera/sensor/csi2/built-in.a :=  rm -f drivers/media/platform/exynos/camera/sensor/csi2/built-in.a; aarch64-linux-android-ar rcSTPD drivers/media/platform/exynos/camera/sensor/csi2/built-in.a drivers/media/platform/exynos/camera/sensor/csi2/is-hw-csi-v5_3.o

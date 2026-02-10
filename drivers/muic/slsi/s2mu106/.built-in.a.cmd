@@ -1,0 +1,1 @@
+cmd_drivers/muic/slsi/s2mu106/built-in.a :=  rm -f drivers/muic/slsi/s2mu106/built-in.a; aarch64-linux-android-ar rcSTPD drivers/muic/slsi/s2mu106/built-in.a drivers/muic/slsi/s2mu106/s2mu106-muic.o drivers/muic/slsi/s2mu106/s2mu106-muic-afc.o

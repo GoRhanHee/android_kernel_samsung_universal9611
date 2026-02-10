@@ -1,0 +1,1 @@
+cmd_drivers/battery/fuelgauge/s2mu106_fuelgauge/built-in.a :=  rm -f drivers/battery/fuelgauge/s2mu106_fuelgauge/built-in.a; aarch64-linux-android-ar rcSTPD drivers/battery/fuelgauge/s2mu106_fuelgauge/built-in.a drivers/battery/fuelgauge/s2mu106_fuelgauge/s2mu106_fuelgauge.o

@@ -1,0 +1,3 @@
+kernel/sound/soc/codecs/snd-soc-aud3003x.ko
+kernel/sound/soc/codecs/snd-soc-aud3003x-5p.ko
+kernel/sound/soc/codecs/tas2562/snd-soc-tas2562.ko

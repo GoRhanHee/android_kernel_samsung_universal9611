@@ -1,0 +1,1 @@
+cmd_drivers/misc/tui/platforms/exynos980/built-in.a :=  rm -f drivers/misc/tui/platforms/exynos980/built-in.a; aarch64-linux-android-ar rcSTPD drivers/misc/tui/platforms/exynos980/built-in.a drivers/misc/tui/platforms/exynos980/stui_hal_display.o drivers/misc/tui/platforms/exynos980/stui_hal_touch.o

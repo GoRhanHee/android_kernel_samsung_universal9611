@@ -1,0 +1,1 @@
+cmd_drivers/vision/npu/built-in.a :=  rm -f drivers/vision/npu/built-in.a; aarch64-linux-android-ar rcSTPD drivers/vision/npu/built-in.a drivers/vision/npu/core/built-in.a drivers/vision/npu/soc/built-in.a
