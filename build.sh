@@ -29,12 +29,12 @@ CLANG_TRIPLE=aarch64-linux-gnu-
 # Cooking Kernel Source
 DEFCONFIG="exynos980-a51x_defconfig"
 
-if [ "${OPTION}" == "ksu" ]; then
+if [ "${OPTION}" == "ksun" ]; then
     CONFIGS="${DEFCONFIG} gorhanhee.config ksu.config"
 elif [ "${OPTION}" == "apatch" ]; then
     CONFIGS="${DEFCONFIG} gorhanhee.config"
 else
-    echo "Write Build Option ex) ./build.sh ksu"
+    echo "Write Build Option ex) ./build.sh ksun"
     exit 1    
 fi
 
