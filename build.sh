@@ -54,11 +54,25 @@ make ${MAKE_ARGS} || exit 1
 mkdir prebuilts/output
 chmod +x ${ANDROID_BUILD_TOP}/prebuilts/*
 
+# Cooking dtb.img
+# Idea from @xfwdrev exynos2100 kernel source (https://github.com/xfwdrev/android_kernel_samsung_ex2100/blob/12-upstream/build.sh)
+./prebuilts/mkdtimg cfg_create ${ANDROID_BUILD_TOP}/prebuilts/output/dtb.img ${ANDROID_BUILD_TOP}/prebuilts/exynos9630.cfg -d ${ANDROID_BUILD_TOP}/out/arch/arm64/boot/dts/exynos
+
+# Cooking dtbo.img
+# Idea from @xfwdrev exynos2100 kernel source (https://github.com/xfwdrev/android_kernel_samsung_ex2100/blob/12-upstream/build.sh)
+./prebuilts/mkdtimg cfg_create ${ANDROID_BUILD_TOP}/prebuilts/output/dtbo.img ${ANDROID_BUILD_TOP}/prebuilts/dtbo.cfg -d ${ANDROID_BUILD_TOP}/out/arch/arm64/boot/dts/samsung/a51x/a51x
+
 cd ${ANDROID_BUILD_TOP}/prebuilts
 
 # Cooking boot.img
     unzip -jo ${ANDROID_BUILD_TOP}/prebuilts/${DEVICE}/boot.zip boot.img -d ${ANDROID_BUILD_TOP}/prebuilts/
     ./magiskboot unpack boot.img
     cp ${ANDROID_BUILD_TOP}/out/arch/arm64/boot/Image ${ANDROID_BUILD_TOP}/prebuilts/kernel
+    # Copying dtb
+        cp ${ANDROID_BUILD_TOP}/prebuilts/output/dtb.img ${ANDROID_BUILD_TOP}/prebuilts/dtb
     ./magiskboot repack boot.img
     cp ${ANDROID_BUILD_TOP}/prebuilts/new-boot.img ${ANDROID_BUILD_TOP}/prebuilts/output/boot.img
+
+# Cooking flashable tar file   
+    cp ${ANDROID_BUILD_TOP}/prebuilts/vbmeta.img ${ANDROID_BUILD_TOP}/prebuilts/output/vbmeta.img     
+    tar -cvf "Galaxy_A51_${OPTION}.tar" boot.img dtbo.img vbmeta.img
