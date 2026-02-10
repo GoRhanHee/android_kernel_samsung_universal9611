@@ -74,5 +74,6 @@ cd ${ANDROID_BUILD_TOP}/prebuilts
     cp ${ANDROID_BUILD_TOP}/prebuilts/new-boot.img ${ANDROID_BUILD_TOP}/prebuilts/output/boot.img
 
 # Cooking flashable tar file   
-    cp ${ANDROID_BUILD_TOP}/prebuilts/vbmeta.img ${ANDROID_BUILD_TOP}/prebuilts/output/vbmeta.img     
+    cp ${ANDROID_BUILD_TOP}/prebuilts/vbmeta.img ${ANDROID_BUILD_TOP}/prebuilts/output/vbmeta.img
+    cd ${ANDROID_BUILD_TOP}/prebuilts/output     
     tar -cvf "Galaxy_A51_${OPTION}.tar" boot.img dtbo.img vbmeta.img
