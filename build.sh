@@ -49,3 +49,16 @@ O=out
 
 make ${MAKE_ARGS} ${CONFIGS} || exit 1
 make ${MAKE_ARGS} || exit 1
+
+# ***************** Cooking flashable files code **************************
+mkdir prebuilts/output
+chmod +x ${ANDROID_BUILD_TOP}/prebuilts/*
+
+cd ${ANDROID_BUILD_TOP}/prebuilts
+
+# Cooking boot.img
+    unzip -jo ${ANDROID_BUILD_TOP}/prebuilts/${DEVICE}/boot.zip boot.img -d ${ANDROID_BUILD_TOP}/prebuilts/
+    ./magiskboot unpack boot.img
+    cp ${ANDROID_BUILD_TOP}/out/arch/arm64/boot/Image ${ANDROID_BUILD_TOP}/prebuilts/kernel
+    ./magiskboot repack boot.img
+    cp ${ANDROID_BUILD_TOP}/prebuilts/new-boot.img ${ANDROID_BUILD_TOP}/prebuilts/output/boot.img
